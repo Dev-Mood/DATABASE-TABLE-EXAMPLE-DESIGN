@@ -1,0 +1,94 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+    float: left;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCCCCC;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+li a {
+    display: block;
+    color: #000080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;   
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #fff;
+}
+.active {
+    background-color: #fff;
+}
+/* navbar */
+.navbar {
+    margin-top: 5px;
+}
+.container-box {
+    padding: 20px;
+    background-color: #CCCCCC;
+    margin-top: 10px;
+}
+
+.main-box {
+    padding: 10px;
+    background-color: #CCCCCC;
+    margin-top: 10px;
+}
+
+/* main box searchbox */
+input[type="text"] {
+    padding: 10px;
+}
+
+/* mainbox button */
+.button-section {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #fff;
+}
+fieldset {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.button-mark {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #eee;
+    margin-top: 5px;
+}
+.button-mark:hover {
+    background-color: #CCCCCC;
+}
+.last-container {
+    margin-top: 5px; 
+}
+
+/* responsive */
+@media only screen and (max-width: 400px) {
+    table,th, td, .navbar, .container-box, .main-box {width: 100%;}
+
+}
